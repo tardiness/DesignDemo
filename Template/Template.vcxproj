@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{349C5F62-634D-4A36-9423-501D3BAD6D7D}</ProjectGuid>
-    <RootNamespace>Decorator</RootNamespace>
+    <ProjectGuid>{FA553367-46E3-4C58-B5C0-435E1864A38D}</ProjectGuid>
+    <RootNamespace>Template</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,11 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="Template.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Decorator.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="maincpp.cpp" />
+    <ClCompile Include="Template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

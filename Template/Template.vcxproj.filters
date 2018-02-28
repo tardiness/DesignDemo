@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Decorator.h">
+    <ClInclude Include="Template.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Decorator.cpp">
+    <ClCompile Include="Template.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="maincpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

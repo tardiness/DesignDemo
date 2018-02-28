@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{349C5F62-634D-4A36-9423-501D3BAD6D7D}</ProjectGuid>
-    <RootNamespace>Decorator</RootNamespace>
+    <ProjectGuid>{DBE54CFE-99E3-452D-91A0-D74FC30C9A45}</ProjectGuid>
+    <RootNamespace>FlyWeight</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,10 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="FlyWeight.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="FlyWeight.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

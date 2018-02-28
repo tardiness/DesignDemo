@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{349C5F62-634D-4A36-9423-501D3BAD6D7D}</ProjectGuid>
-    <RootNamespace>Decorator</RootNamespace>
+    <ProjectGuid>{603C803A-5AA4-43E4-9CCE-CC63D299E54A}</ProjectGuid>
+    <RootNamespace>Observer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,11 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="Observer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Decorator.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Observer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,9 +1,11 @@
 #pragma once
+#ifndef DECORATOR_H
+#define DECORATOR_H
 
 class Component
 {
 public:
-	Component();
+	Component() {};
 	~Component() {};
 
 	virtual void Operation() = 0;
@@ -39,3 +41,14 @@ private:
 	void AddBehavior();
 };
 
+class ConcreateDecoratorA : public Decorator
+{
+public:
+	ConcreateDecoratorA(Component* pComponent) :Decorator(pComponent) {};
+	~ConcreateDecoratorA() {};
+	virtual void Operation();
+private:
+	void ChangeState();
+};
+
+#endif
